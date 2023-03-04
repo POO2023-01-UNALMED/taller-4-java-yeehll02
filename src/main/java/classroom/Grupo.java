@@ -2,11 +2,11 @@ package classroom;
 
 public class Grupo {
 
-     Persona[] estudiantes;
-     Persona profesor;
-     Asignatura asignatura;
-     int codigo = 0;
-     String horario;
+    public Persona[] estudiantes;
+    public Persona profesor;
+    public Asignatura asignatura;
+    public int codigo = 0;
+    public String horario;
 
     public Grupo(Persona[] estudiantes, Persona profesor, Asignatura asignatura, int codigo, String horario) {
         this.estudiantes = estudiantes;

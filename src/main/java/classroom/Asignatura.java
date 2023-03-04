@@ -4,9 +4,9 @@ public class Asignatura {
 
     public String nombre;
     String n = nombre;
-    int codigoInterno;
-    int codigoExterno;
-    Tipo tipo;
+    public int codigoInterno;
+    public int codigoExterno;
+    public Tipo tipo;
 
     public Asignatura() {
         this("Sin nombre",Tipo.FUNDAMENTACION);
